@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Ejs</title>
+  </head>
+  <body>
+    <h1>Welcome to Home Ejs</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+      sapiente impedit similique?
+    </p>
+
+    <!-- Dynamic variable in Ejs -->
+    <%= name %> <br />
+
+    <!-- javascript Method in Ejs -->
+    <%= name.toUpperCase() %> <br />
+
+    <!-- Make Expression in Ejs -->
+    2+2 =<%= 2+2 %>
+
+    <!-- Conditional Statement in Ejs -->
+    <% if(id === 20){ %>
+    <h1>User ID: <%= id %></h1>
+    <% }else{ %>
+    <h2>No ID found.....</h2>
+    <% } %>
+
+    <!-- For Loop in Ejs -->
+    <% for(let i=1; i<10; i++){ %>
+    <h1><%= i %></h1>
+    <% } %> <br />
+
+    <% const data=[1,2,3,4,5] %> <% for(d in data){ %>
+
+    <h1><%= d %></h1>
+    <% } %>
+
+    <!-- Data(in Ejs) -->
+    <% var current = new Date() %> <%= current %>
+  </body>
+</html>
