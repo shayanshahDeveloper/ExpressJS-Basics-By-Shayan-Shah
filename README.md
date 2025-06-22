@@ -22,3 +22,5 @@ This repository provides a code-centric approach to mastering the fundamentals o
 * Controllers: Separating route logic into controllers to keep code modular and maintainable.
 * express.static: Serving static files, like images or CSS, directly to the client.
 * EJS Templates: Using EJS as a templating engine to render dynamic HTML pages.
+
+[<img src="https://github.com/user-attachments/assets/86fc1b36-ccf0-4300-99a2-cb4a31d73a8b" width="150" alt="Buy Me a Coffee">](https://buymeacoffee.com/shayanshahdev)
